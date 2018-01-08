@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000010321203950}
+  m_IsPrefabParent: 1
+--- !u!1 &1000010321203950
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4000011959629500}
+  - component: {fileID: 114000013719404186}
+  - component: {fileID: 114000012027457396}
+  - component: {fileID: 114000012971566974}
+  - component: {fileID: 114000013405305858}
+  - component: {fileID: 114000013564482248}
+  m_Layer: 0
+  m_Name: Explore
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000011959629500
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010321203950}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2190.9775, y: 23.006668, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114000012027457396
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010321203950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f579bb67124ec884596cb3d96916aa1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114000012971566974
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010321203950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1af93dd73424ecc4b9345c8a7f76a52c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inventorySlot: {fileID: 1000011411603974, guid: b64af3a40ad7dd845ba6adf2bff9541a,
+    type: 2}
+  inventoryItem: {fileID: 1000010448016806, guid: 81a71723962f1e24dad07623ba6622ff,
+    type: 2}
+  DeptPanel: {fileID: 1000012997419766, guid: e43f5b18d64610f44b71d6a366a4803c, type: 2}
+  Weapon: {fileID: 1000010260521934, guid: e77c70702734d624c83c4524e3e24d0b, type: 2}
+  Defense: {fileID: 1000011816098846, guid: 81d8b560318ea2e478ca56c25385f668, type: 2}
+  item: {fileID: 1000013036441724, guid: f40c1caeeb7b0d341af96a3233dbe4c8, type: 2}
+  itemSlot: {fileID: 1000010396629402, guid: 7d93d0871769a02468081744aa9a228e, type: 2}
+  slots: []
+  recipe_slots: []
+  EquipPanel: {fileID: 0}
+  hW: []
+  hD: []
+  texture: []
+--- !u!114 &114000013405305858
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010321203950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c66a4f11051d3c440b93981b3ced9861, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ex: {fileID: 0}
+  closeButton: {fileID: 0}
+--- !u!114 &114000013564482248
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010321203950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57200ce02643d544cb036e0eeb1cecfd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114000013719404186
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010321203950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59fd1f9e45ef11843a2b1a5ed368ff60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
