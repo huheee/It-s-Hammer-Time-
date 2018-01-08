@@ -1,0 +1,564 @@
+{
+	"material" :[
+		{	
+			"id": 0,
+			"title": "copper_ore",
+			"description" : "Gloves mad from steel. Yea.",
+			"stackable": true,
+			"slug": "copper_ore"
+		}, {
+			"id": 1,
+			"title": "iron_ore",
+			"description" : "Gloves mad from steel. Yea.",
+			"stackable": true,
+			"slug": "iron_ore"
+		}, {
+			"id": 2,
+			"title": "silver_ore",
+			"description" : "Gloves mad from steel. Yea.",
+			"stackable": true,
+			"slug": "silver_ore"
+		}, {
+			"id": 3,
+			"title": "gold_ore",
+			"description" : "Gloves mad from steel. Yea.",
+			"stackable": true,
+			"slug": "gold_ore"
+		}, {
+			"id": 4,
+			"title": "mithril_ore",
+			"description" : "Gloves mad from steel. Yea.",
+			"stackable": true,
+			"slug": "mithril_ore"
+		}, {
+			"id": 5,
+			"title": "tera_ore",
+			"description" : "Gloves mad from steel. Yea.",
+			"stackable": true,
+			"slug": "tera_ore"
+		}, {
+			"id": 6,
+			"title": "wood",
+			"description" : "Gloves mad from steel. Yea.",
+			"stackable": true,
+			"slug": "wood"
+		}, {
+			"id": 7,
+			"title": "stone",
+			"description" : "Gloves mad from steel. Yea.",
+			"stackable": true,
+			"slug": "stone"
+		}, {
+			"id": 8,
+			"title": "ruby",
+			"description" : "Gloves mad from steel. Yea.",
+			"stackable": true,
+			"slug": "ruby"
+		}, {
+			"id": 9,
+			"title": "sapphire",
+			"description" : "Gloves mad from steel. Yea.",
+			"stackable": true,
+			"slug": "sapphire"
+		}, {
+			"id": 10,
+			"title": "topaz",
+			"description" : "Gloves mad from steel. Yea.",
+			"stackable": true,
+			"slug": "topaz"
+		}, {
+			"id": 11,
+			"title": "diamond",
+			"description" : "Gloves mad from steel. Yea.",
+			"stackable": true,
+			"slug": "diamond"
+		}, {
+			"id": 12,
+			"title": "emerald",
+			"description" : "Gloves mad from steel. Yea.",
+			"stackable": true,
+			"slug": "emerald"
+		}
+	], 
+     "recipe" :[
+		 {
+			"id": 51,
+			"title": "rusty_sword",
+			"value": 543,
+			"stats": {
+				"power":1,
+				"defence":4,
+				"vitality":2
+				},
+			"description" : "구리로 만든 구린검.\n 만들자마자 녹슬어 버렸다.",
+			"stackable": true,
+			"rarity":2,
+			"slug": "rusty_sword",
+			"mate1":0,
+			"mate2":6
+		}, {
+			"id": 52,
+			"title": "wood_shield",
+			"value": 543,
+			"stats": {
+				"power":1,
+				"defence":4,
+				"vitality":2
+				},
+			"description" : "나무와 철이 들어간 나무 방패.\n 구리와 철로 어떻게 만들었는지 모르겠다.",
+			"stackable": true,
+			"rarity":2,
+			"slug": "wood_shield",
+			"mate1":6,
+			"mate2":0
+		}, {
+			"id": 53,
+			"title": "stone_hammer",
+			
+			"value": 543,
+			"stats": {
+				"power":1,
+				"defence":4,
+				"vitality":2
+				},
+			"description" : "은과 철로 만든 연모양 방패.\n 전사들이 즐겨쓴다.",
+			"stackable": true,
+			"rarity":2,
+			"slug": "stone_hammer",
+			"mate1":0,
+			"mate2":7
+		}, {
+			"id": 54,
+			"title": "stone_armor",
+			
+			"value": 543,
+			"stats": {
+				"power":1,
+				"defence":4,
+				"vitality":2
+				},
+			"description" : "은과 철로 만든 연모양 방패.\n 전사들이 즐겨쓴다.",
+			"stackable": true,
+			"rarity":2,
+			"slug": "stone_armor",
+			"mate1":7,
+			"mate2":0
+		}, {
+			"id": 55,
+			"title": "red_spear",
+			
+			"value": 543,
+			"stats": {
+				"power":1,
+				"defence":4,
+				"vitality":2
+				},
+			"description" : "은과 철로 만든 연모양 방패.\n 전사들이 즐겨쓴다.",
+			"stackable": true,
+			"rarity":2,
+			"slug": "red_spear",
+			"mate1":1,
+			"mate2":8
+		}, {
+			"id": 56,
+			"title": "iron_shield",
+			
+			"value": 543,
+			"stats": {
+				"power":1,
+				"defence":4,
+				"vitality":2
+				},
+			"description" : "은과 철로 만든 연모양 방패.\n 전사들이 즐겨쓴다.",
+			"stackable": true,
+			"rarity":2,
+			"slug": "iron_shield",
+			"mate1":8,
+			"mate2":1
+		}, {
+			"id": 57,
+			"title": "bluesteel_sword",
+			
+			"value": 543,
+			"stats": {
+				"power":1,
+				"defence":4,
+				"vitality":2
+				},
+			"description" : "은과 철로 만든 연모양 방패.\n 전사들이 즐겨쓴다.",
+			"stackable": true,
+			"rarity":2,
+			"slug": "bluesteel_sword",
+			"mate1":1,
+			"mate2":9
+		}, {
+			"id": 58,
+			"title": "blue_glove",
+			
+			"value": 543,
+			"stats": {
+				"power":1,
+				"defence":4,
+				"vitality":2
+				},
+			"description" : "은과 철로 만든 연모양 방패.\n 전사들이 즐겨쓴다.",
+			"stackable": true,
+			"rarity":2,
+			"slug": "blue_glove",
+			"mate1":9,
+			"mate2":1
+		}, {
+			"id": 59,
+			"title": "fake_golden_sword",
+			
+			"value": 543,
+			"stats": {
+				"power":1,
+				"defence":4,
+				"vitality":2
+				},
+			"description" : "은과 철로 만든 연모양 방패.\n 전사들이 즐겨쓴다.",
+			"stackable": true,
+			"rarity":2,
+			"slug": "fake_golden_sword",
+			"mate1":1,
+			"mate2":10
+		}, {
+			"id": 60,
+			"title": "fake_golden_boot",
+			
+			"value": 543,
+			"stats": {
+				"power":1,
+				"defence":4,
+				"vitality":2
+				},
+			"description" : "은과 철로 만든 연모양 방패.\n 전사들이 즐겨쓴다.",
+			"stackable": true,
+			"rarity":2,
+			"slug": "fake_golden_boot",
+			"mate1":10,
+			"mate2":1
+		}, {
+			"id": 61,
+			"title": "katana",
+			
+			"value": 543,
+			"stats": {
+				"power":1,
+				"defence":4,
+				"vitality":2
+				},
+			"description" : "은과 철로 만든 연모양 방패.\n 전사들이 즐겨쓴다.",
+			"stackable": true,
+			"rarity":2,
+			"slug": "katana",
+			"mate1":2,
+			"mate2":8
+		}, {
+			"id": 62,
+			"title": "necklaces",
+			
+			"value": 543,
+			"stats": {
+				"power":1,
+				"defence":4,
+				"vitality":2
+				},
+			"description" : "은과 철로 만든 연모양 방패.\n 전사들이 즐겨쓴다.",
+			"stackable": true,
+			"rarity":2,
+			"slug": "necklaces",
+			"mate1":8,
+			"mate2":2
+		}, {
+			"id": 63,
+			"title": "water_staff",
+			
+			"value": 543,
+			"stats": {
+				"power":1,
+				"defence":4,
+				"vitality":2
+				},
+			"description" : "은과 철로 만든 연모양 방패.\n 전사들이 즐겨쓴다.",
+			"stackable": true,
+			"rarity":2,
+			"slug": "water_staff",
+			"mate1":2,
+			"mate2":9
+		}, {
+			"id": 64,
+			"title": "moon_ring",
+			
+			"value": 543,
+			"stats": {
+				"power":1,
+				"defence":4,
+				"vitality":2
+				},
+			"description" : "은과 철로 만든 연모양 방패.\n 전사들이 즐겨쓴다.",
+			"stackable": true,
+			"rarity":2,
+			"slug": "moon_ring",
+			"mate1":9,
+			"mate2":2
+		}, {
+			"id": 65,
+			"title": "half_sword",
+			
+			"value": 543,
+			"stats": {
+				"power":1,
+				"defence":4,
+				"vitality":2
+				},
+			"description" : "은과 철로 만든 연모양 방패.\n 전사들이 즐겨쓴다.",
+			"stackable": true,
+			"rarity":2,
+			"slug": "half_sword",
+			"mate1":2,
+			"mate2":10
+		}, {
+			"id": 66,
+			"title": "shiny_glasses",
+			
+			"value": 543,
+			"stats": {
+				"power":1,
+				"defence":4,
+				"vitality":2
+				},
+			"description" : "은과 철로 만든 연모양 방패.\n 전사들이 즐겨쓴다.",
+			"stackable": true,
+			"rarity":2,
+			"slug": "shiny_glasses",
+			"mate1":10,
+			"mate2":2
+		}, {
+			"id": 67,
+			"title": "gold_bar",
+			
+			"value": 543,
+			"stats": {
+				"power":1,
+				"defence":4,
+				"vitality":2
+				},
+			"description" : "은과 철로 만든 연모양 방패.\n 전사들이 즐겨쓴다.",
+			"stackable": true,
+			"rarity":2,
+			"slug": "gold_bar",
+			"mate1":3,
+			"mate2":8
+		}, {
+			"id": 68,
+			"title": "gold_badge",
+			
+			"value": 543,
+			"stats": {
+				"power":1,
+				"defence":4,
+				"vitality":2
+				},
+			"description" : "은과 철로 만든 연모양 방패.\n 전사들이 즐겨쓴다.",
+			"stackable": true,
+			"rarity":2,
+			"slug": "gold_badge",
+			"mate1":8,
+			"mate2":3
+		}, {
+			"id": 69,
+			"title": "gold_mace",
+			
+			"value": 543,
+			"stats": {
+				"power":1,
+				"defence":4,
+				"vitality":2
+				},
+			"description" : "은과 철로 만든 연모양 방패.\n 전사들이 즐겨쓴다.",
+			"stackable": true,
+			"rarity":2,
+			"slug": "gold_mace",
+			"mate1":3,
+			"mate2":9
+		}, {
+			"id": 70,
+			"title": "crown",
+			
+			"value": 543,
+			"stats": {
+				"power":1,
+				"defence":4,
+				"vitality":2
+				},
+			"description" : "은과 철로 만든 연모양 방패.\n 전사들이 즐겨쓴다.",
+			"stackable": true,
+			"rarity":2,
+			"slug": "crown",
+			"mate1":9,
+			"mate2":3
+		}, {
+			"id": 71,
+			"title": "real_gold_sword",
+			
+			"value": 543,
+			"stats": {
+				"power":1,
+				"defence":4,
+				"vitality":2
+				},
+			"description" : "은과 철로 만든 연모양 방패.\n 전사들이 즐겨쓴다.",
+			"stackable": true,
+			"rarity":2,
+			"slug": "real_gold_sword",
+			"mate1":3,
+			"mate2":10
+		}, {
+			"id": 72,
+			"title": "gold_bookcase",
+			
+			"value": 543,
+			"stats": {
+				"power":1,
+				"defence":4,
+				"vitality":2
+				},
+			"description" : "은과 철로 만든 연모양 방패.\n 전사들이 즐겨쓴다.",
+			"stackable": true,
+			"rarity":2,
+			"slug": "gold_bookcase",
+			"mate1":10,
+			"mate2":3
+		}, {
+			"id": 73,
+			"title": "sting",
+			
+			"value": 543,
+			"stats": {
+				"power":1,
+				"defence":4,
+				"vitality":2
+				},
+			"description" : "은과 철로 만든 연모양 방패.\n 전사들이 즐겨쓴다.",
+			"stackable": true,
+			"rarity":2,
+			"slug": "sting",
+			"mate1":4,
+			"mate2":11
+		}, {
+			"id": 74,
+			"title": "dia_skullhead",
+			
+			"value": 543,
+			"stats": {
+				"power":1,
+				"defence":4,
+				"vitality":2
+				},
+			"description" : "은과 철로 만든 연모양 방패.\n 전사들이 즐겨쓴다.",
+			"stackable": true,
+			"rarity":2,
+			"slug": "dia_skullhead",
+			"mate1":11,
+			"mate2":4
+		}, {
+			"id": 75,
+			"title": "mithril_hammer",
+			
+			"value": 543,
+			"stats": {
+				"power":1,
+				"defence":4,
+				"vitality":2
+				},
+			"description" : "은과 철로 만든 연모양 방패.\n 전사들이 즐겨쓴다.",
+			"stackable": true,
+			"rarity":2,
+			"slug": "mithril_hammer",
+			"mate1":4,
+			"mate2":12
+		}, {
+			"id": 76,
+			"title": "roler_boot",
+			
+			"value": 543,
+			"stats": {
+				"power":1,
+				"defence":4,
+				"vitality":2
+				},
+			"description" : "은과 철로 만든 연모양 방패.\n 전사들이 즐겨쓴다.",
+			"stackable": true,
+			"rarity":2,
+			"slug": "roler_boot",
+			"mate1":12,
+			"mate2":4
+		}, {
+			"id": 77,
+			"title": "meteo_strike",
+			
+			"value": 543,
+			"stats": {
+				"power":1,
+				"defence":4,
+				"vitality":2
+				},
+			"description" : "은과 철로 만든 연모양 방패.\n 전사들이 즐겨쓴다.",
+			"stackable": true,
+			"rarity":2,
+			"slug": "meteo_strike",
+			"mate1":5,
+			"mate2":11
+		}, {
+			"id": 78,
+			"title": "absolute_ring",
+			
+			"value": 543,
+			"stats": {
+				"power":1,
+				"defence":4,
+				"vitality":2
+				},
+			"description" : "은과 철로 만든 연모양 방패.\n 전사들이 즐겨쓴다.",
+			"stackable": true,
+			"rarity":2,
+			"slug": "absolute_ring",
+			"mate1":11,
+			"mate2":5
+		}, {
+			"id": 79,
+			"title": "absolute_sword",
+			
+			"value": 543,
+			"stats": {
+				"power":1,
+				"defence":4,
+				"vitality":2
+				},
+			"description" : "은과 철로 만든 연모양 방패.\n 전사들이 즐겨쓴다.",
+			"stackable": true,
+			"rarity":2,
+			"slug": "absolute_sword",
+			"mate1":5,
+			"mate2":12
+		}, {
+			"id": 80,
+			"title": "singular_point",
+			
+			"value": 543,
+			"stats": {
+				"power":1,
+				"defence":4,
+				"vitality":2
+				},
+			"description" : "은과 철로 만든 연모양 방패.\n 전사들이 즐겨쓴다.",
+			"stackable": true,
+			"rarity":2,
+			"slug": "singular_point",
+			"mate1":5,
+			"mate2":12
+		}
+	]
+}

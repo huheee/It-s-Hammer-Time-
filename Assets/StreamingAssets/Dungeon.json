@@ -1,0 +1,43 @@
+[
+	{
+		"id": 1000,
+		"title": "황색 산",
+		"description" : "구리 광석이 많은 산입니다. 약한 고블린들이 돌아다닙니다.",
+		"dropitem": "구리광석, 철광석 등등",
+		"monster": "고블린",
+		"monslug": "goblin"
+		
+	},
+	{
+		"id": 1001,
+		"title": "숲 속의 호수",
+		"description" : "깊은 숲 속 호수입니다. 광석과 희귀한 보석이 나온다고 합니다.",
+		"dropitem": "철광석, 은광석 등등",
+		"monster": "슬라임",
+		"monslug": "slime"
+	},  
+	{
+		"id": 1002,
+		"title": "고대의 사막",
+		"description" : "황금빛 모래가 가득한 사막입니다. 피라미드에 있는 고대의 물품들은 훌륭한 재료입니다.",
+		"dropitem": "은광석, 금광석 등등",
+		"monster": "미라",
+		"monslug": "mummy"
+	},
+	{
+		"id": 1003,
+		"title": "녹아내리는 화산",
+		"description" : "원래는 멀쩡한 산이었지만, 용이 나타난 뒤로는 용암이 흘러내립니다. 덕분에 희귀한 광물을 채취할 수 있습니다.",
+		"dropitem": "금광석, 미스릴광석 등등",
+		"monster": "드래곤",
+		"monslug": "dragon"
+	},
+	{
+		"id": 1004,
+		"title": "마왕의 성",
+		"description" : "모든 일의 원흉이 사는 곳입니다. 음침한 성이 하늘을 떠다니고 있습니다.",
+		"dropitem": "??",
+		"monster": "??",
+		"monslug": "unseen"
+	}
+]

@@ -1,0 +1,44 @@
+[
+	{
+		"id": 100,
+		"title": "Man",
+		"value": 1,
+		"stats": {
+			"power":1,
+			"defence":1,
+			"vitality":50
+			},
+		"description" : "변방 시골 마을에서 돈을 벌기 위해서 올라온 초보 모험가",
+		"stackable": false,
+		"rarity":2,
+		"slug": "Man"
+	},
+	{
+		"id": 101,
+		"title": "Woman",
+		"value": 1,
+		"stats": {
+			"power":1,
+			"defence":1,
+			"vitality":30
+			},
+		"description" : "마법 협회에서 쫒겨나 떠돌이 마법사가 된 초보 마법사",
+		"stackable": true,
+		"rarity":2,
+		"slug": "Woman"
+	},
+	{
+		"id": 102,
+		"title": "Smith",
+		"value": 543,
+		"stats": {
+			"power":1,
+			"defence":1,
+			"vitality":100000
+			},
+		"description" : "마을에서 유명한 대장장이",
+		"stackable": true,
+		"rarity":2,
+		"slug": "Smith"
+	}
+]
